@@ -46,12 +46,21 @@
 
     <nav aria-label="Navegación principal">
 
+
         <div class="buscar">
 
-          <input type="search" placeholder="Buscar..." >
-            <i class="bi bi-search buscador"> </i>
+            <input
+                type="search"
+                id="busquedaGlobal"
+                placeholder="Buscar rutas, galerías..."
+                aria-label="Buscar en VILLA MTB"
+                autocomplete="off"
+            >
+
+            <i class="bi bi-search buscador"></i>
 
         </div>
+
 
         <a href="index.html">Inicio</a>
 
@@ -106,33 +115,39 @@
 
                 <h3>Ruta 1: Vereda El Carmen</h3>
 
-                <p>
+               <button type = "button" id = "botonRutas">
+                Ver ruta completa
+               </button> 
+
+               <div id = "Ruta1" hidden>
+
+                    <p>
                     Una ruta de dificultad media-alta y técnica
                     que atraviesa Cañón Verde, ideal para disfrutar
                     de la naturaleza.
-                </p>
+                    </p>
 
-                <ul>
-
-                    <li>
-                        Distancia: 7.51 km
-                    </li>
-
-                    <li>
-                        Duración: 48:04 minutos
-                    </li>
-
-                    <li>
-                        Dificultad: Media-alta
-                    </li>
-
-                </ul>
+                    <ul>
+                        <li>
+                            Distancia: 7.51 km
+                        </li>
+                        <li>
+                            Duración: 48:04 minutos
+                        </li>
+                        <li>
+                            Dificultad: Media-alta
+                        </li>
+                    </ul>
 
 
-                <img class = imagen-ruta
+
+                    <img class = imagen-ruta
                     src="imagenes/carmen.png"
-                    alt="Imagen de la ruta de Mountain Bike Vereda El Carmen"
-                >
+                    alt="Imagen de la ruta de Mountain Bike Vereda El Carmen">
+
+                </div>
+
+
 
             </article>
 
@@ -145,115 +160,142 @@
 
                 <h3>Ruta 2: La Cima</h3>
 
-                <p>
-                    Una ruta desafiante que te llevará a la cima
-                    del cerro para disfrutar de la vista panorámica
-                    sobre la ciudad de Villavicencio.
-                </p>
-
-                <ul>
-
-                    <li>
-                        Distancia: 10.47 km
-                    </li>
-
-                    <li>
-                        Duración: 1 hora y 21 minutos
-                    </li>
-
-                    <li>
-                        Desnivel: 627 m
-                    </li>
-
-                    <li>
-                        Dificultad: Alta
-                    </li>
-
-                </ul>
+                <button type = "button" id = "botonRutas2">
+                    Ver ruta completa
+                </button>
 
 
-                <img class = imagen-ruta
+                <div id = "Ruta2" hidden>
+
+
+                    <p>
+                        Una ruta desafiante que te llevará a la cima
+                        del cerro para disfrutar de la vista panorámica
+                        sobre la ciudad de Villavicencio.
+                    </p>
+
+                    <ul>
+                        <li>
+                            Distancia: 10.47 km
+                        </li>
+                        <li>
+                            Duración: 1 hora y 21 minutos
+                        </li>
+                        <li>
+                            Desnivel: 627 m
+                        </li>
+                        <li>
+                            Dificultad: Alta
+                        </li>
+                    </ul>
+
+
+                  <img class = imagen-ruta
                     src="imagenes/cima.png"
-                    alt="Imagen de la ruta de Mountain Bike La Cima, en la Vereda El Carmen"
-                >
+                    alt="Imagen de la ruta de Mountain Bike La Cima, en la Vereda El Carmen">
+
+                </div>
+
 
             </article>
 
+            <!-- =================================
+                 RUTA 3
+            ================================== -->
 
             <article class="articulo-ruta">
 
                 <h3>Ruta 3: Palmichal</h3>
 
-                <p>
-                    Ruta de dificultad alta y exigente que te llevará
-                    a una hermosa cascada, ideal para disfrutar
-                    de la naturaleza y refrescarte.
-                </p>
+                <button type = "button" id = "botonRutas3">
+                    Ver ruta completa
+                </button>
 
-                <ul>
 
+                <div id = "Ruta3" hidden>
+          
+
+                    <p>
+                        Ruta de dificultad alta y exigente que te llevará
+                        a una hermosa cascada, ideal para disfrutar
+                        de la naturaleza y refrescarte.
+                    </p>
+
+                    <ul>
                     <li>
                         Distancia: 14.42 km
                     </li>
-
                     <li>
                         Duración: 1:39:45 Horas 
                     </li>
-
                     <li>
                         Desnivel: 506 m
                     </li>
-
                     <li>
                         Dificultad: Alta
                     </li>
-
-                </ul>
-               
-
+                    </ul>
+                
 
 
-             <img class = imagen-ruta
 
-                src="imagenes/palmichal.png"
-                alt="Imagen de la ruta de Mountain Bike Palmichal, en la Vereda El Carmen"      
-                >
+                    <img class = imagen-ruta
+
+                        src="imagenes/palmichal.png"
+                        alt="Imagen de la ruta de Mountain Bike Palmichal, en la Vereda El Carmen"
+                    >
+                    
+                </div>
+
             </article>
 
-
+            
+            <!-- =================================
+                 RUTA 4
+            ================================== -->
 
             <article class="articulo-ruta">
                 
                 <h3>Ruta 4: Monfort</h3>
 
-                <p>                  
-                    Ruta de dificultad altisisma exigencia física que te llevará a Monfort Meta.
-                </p>
 
-                <ul>
+                <button type = "button" id = "botonRutas4">
+                    Ver ruta completa
+                </button>
 
+
+                <div id = "Ruta4" hidden>
+          
+
+                    <p>
+                        Una ruta de dificultad altísima, en absoluto es una ruta de extrema
+                        exigencia física que te llevará a Monfort, Meta.
+                    </p>
+
+                    <ul>
                     <li>
                         Distancia: 55.5 km
                     </li>
-
                     <li>
-                        Duración: 6:04:49 Horas
+                        Duración: 6:04:49 Horas 
                     </li>
-
                     <li>
                         Desnivel: 2,235 m
                     </li>
-
                     <li>
                         Dificultad: Extrema
                     </li>
+                    </ul>
 
-                </ul>
 
-                <img class = imagen-ruta
-                    src="imagenes/monfort.png"
-                    alt="Imagen de la ruta de Mountain Bike Monfort"                    
-                >
+                    <img class = imagen-ruta
+                        src="imagenes/monfort.png"
+                        alt="Imagen de la ruta de Mountain Bike Monfort"                    
+                    >
+
+                </div>
+
+
             </article>
 
 
@@ -284,6 +326,7 @@
 
     </footer>
 
+    <script src="script.js"></script>
 
 </body>
 
