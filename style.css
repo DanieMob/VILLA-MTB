@@ -155,7 +155,7 @@
 
             overflow: hidden;
 
-            background-color: #222;
+            background-color: #000000;
         }
 
         .pagina-inicio  .hero img {
@@ -192,7 +192,7 @@
 
         .pagina-inicio article {
 
-            background-color: #222;
+            background-color: #000000;
 
             padding: 30px;
 
@@ -241,6 +241,7 @@
             display: grid;
             grid-template-columns: repeat(2, 1fr);
             gap: 30px;
+            align-items:start;
             
         }
         
@@ -280,19 +281,22 @@
 
             display: grid;
             grid-template-columns: repeat(2, 1fr);
-            gap: 30px;
+            gap: 20px;
+            align-items:start;
+
 
         }
 
         .pagina-galeria  .articulo-galeria {
         
-            background-color: #222;
+            background-color: #000000;
             padding: 30px;
 
-            border-radius: 15px;
+            border-radius: 10px;
 
             box-shadow: 0 5px 15px rgba(0, 0, 0, 0.25);
 
+            
        }
 
         .pagina-galeria  .articulo-galeria h2 {
