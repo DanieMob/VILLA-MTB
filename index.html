@@ -46,15 +46,21 @@
 
     <nav aria-label="Navegación principal">
         
-        <div class="buscar">
 
-          <input type="search" placeholder="Buscar..." >
+    <div class="buscar">
 
+        <input
+            type="search"
+            id="busquedaGlobal"
+            placeholder="Buscar rutas, galerías..."
+            aria-label="Buscar en VILLA MTB"
+            autocomplete="off"
+        >
 
-            <i class="bi bi-search buscador"> </i>
+        <i class="bi bi-search buscador"></i>
 
+    </div>
 
-        </div>
         
 
 
@@ -109,15 +115,29 @@
                     naturales de la región.
                 </p>
 
-                <ul>
 
-                    <li>Rutas de montaña</li>
 
-                    <li>Rutas de alta dificultad</li>
+              <button type="button" id = "botonRuta">
+                Ver información de rutas 
+                </button>
+                
+                <div id = "informacionRuta" hidden>
 
-                    <li>Rutas para diferentes niveles</li>
 
-                </ul>
+                
+                    Antes de iniciar una ruta MTB, revisa la dificultad del recorrido, utiliza casco  y lleva hidratación y también kit de herramientas.
+
+                    <ul>
+
+                        <li>Rutas de montaña</li>
+
+                        <li>Rutas de alta dificultad</li>
+
+                        <li>Rutas para diferentes niveles</li>
+
+                    </ul>
+
+                </div>
 
             </article>
 
@@ -131,6 +151,15 @@
                     bicicletas y paisajes.
                 </p>
 
+                <button type= "button" id="botonGaleria">
+                    Ver información de galería
+                </button>
+
+              <p id = "informacionGaleria" hidden>
+                    Disfruta de nuestra galería de fotos y videos, donde podrás ver la belleza de las rutas y la emoción de la aventura en bicicleta.
+                </p>  
+
+
             </article>
 
 
@@ -143,8 +172,11 @@
                     más información?
                 </p>
 
-                <p>
-                    Puedes ponerte en contacto con nosotros.
+                <button type = "button" id = "botonContacto">
+                    Ver información de contacto
+                </button>
+                <p id = "informacionContacto" hidden>
+                    Contáctanos: +57 123 456 7890 | info@villamtb.com
                 </p>
 
             </article>
@@ -158,6 +190,16 @@
                     VILLA MTB es un espacio dedicado a los
                     amantes de la bicicleta de montaña,
                     las rutas y la aventura.
+                </p>
+
+
+                <button type = "button" id = "botonSobre">
+                    Ver información sobre VILLA MTB
+                </button>
+
+                <p id = "informacionSobre" hidden>
+                    VILLA MTB es una comunidad apasionada por el Mountain Bike, ofreciendo rutas, consejos y experiencias para ciclistas de todos los niveles.
+
                 </p>
 
             </article>
@@ -185,6 +227,8 @@
 
     </footer>
 
+
+    <script src="script.js"></script>
 
 </body>
 
