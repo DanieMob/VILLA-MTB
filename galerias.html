@@ -47,15 +47,21 @@
 
     <nav aria-label="Navegación principal">
 
-        <div class="buscar">
 
-          <input type="search" placeholder="Buscar..." >
+    <div class="buscar">
 
+        <input
+            type="search"
+            id="busquedaGlobal"
+            placeholder="Buscar rutas, galerías..."
+            aria-label="Buscar en VILLA MTB"
+            autocomplete="off"
+        >
 
-            <i class="bi bi-search buscador"> </i>
+        <i class="bi bi-search buscador"></i>
 
+    </div>
 
-        </div>
 
         <a href="index.html">Inicio</a>
 
@@ -92,21 +98,28 @@
 
                 <h2>Descenso Vereda El Carmen</h2>
 
-                <p>
-                    Ruta de dificultad media que te llevará a la cima
-                    de la montaña, donde podrás disfrutar de vistas
-                    espectaculares.
-                </p>
+                <button type = "button" id="botonGaleria">
+                    Ver más
+                </button>
 
+                <div id = "galeria1" = hidden>
+                    <p>
+                        Ruta de dificultad media que te llevará a la cima
+                        de la montaña, donde podrás disfrutar de vistas
+                        espectaculares.
+                    </p>
 
-                <div class="video-container">
+                    <div class="video-container">
 
-                    <iframe
-                        src="https://www.youtube.com/embed/daffFpJ92I8"
-                        title="Video de la Ruta Vereda El Carmen"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        allowfullscreen>
-                    </iframe>
+                        <iframe
+                            src="https://www.youtube.com/embed/daffFpJ92I8"
+                            title="Video de la Ruta Vereda El Carmen"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen>
+                        </iframe>
+
+                    </div>
+
 
                 </div>
 
@@ -119,21 +132,33 @@
 
                 <h2>Ruta Ecologica de Restrepo, Meta Colombia</h2>
 
-                <p>
-                    Ruta de dificultad alta que te llevará a través
-                    de un terreno montañoso y desafiante, con vistas
-                    impresionantes.
-                </p>
 
 
-                <div class="video-container">
+                <button type = "button" id="botonGaleria2">
+                    Ver más galería
+                </button>
 
-                    <iframe
-                        src="https://www.youtube.com/embed/MQr14drbziI"
-                        title= "Video de la Ruta ecologica de Restrepo Meta Colombia"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        allowfullscreen>
-                    </iframe>
+
+                <div id = "galeria2" hidden>
+
+                    <p>
+                        Ruta de dificultad alta que te llevará a través
+                        de un terreno montañoso y desafiante, con vistas
+                        impresionantes.
+                    </p>
+
+
+
+                    <div class="video-container">
+
+                        <iframe
+                            src="https://www.youtube.com/embed/MQr14drbziI"
+                            title= "Video de la Ruta ecologica de Restrepo Meta Colombia"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen>
+                        </iframe>
+
+                    </div>
 
                 </div>
 
@@ -145,23 +170,32 @@
 
                 <h2>Travesía Bogotá D.C- Villavicencio, Meta </h2>
 
-                <p>
-                   Evento ciclistico reacreativo de 100 km que se realiza anualmente, 
-                   donde los participantes recorren la distancia entre Bogotá y Villavicencio en bicicleta.
-                </p>
 
-                <div class="video-container">
+                <button type = "button" id="botonGaleria3">
+                    Ver más galería
+                </button>
 
-                    <iframe
-                        src="https://www.youtube.com/embed/e6q6K-GVi98"
-                        title="Video de la Travesía Bogotá - Villavicencio"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        allowfullscreen>
+                <div id = "galeria3" hidden>
 
-                    </iframe>
 
-                </div>    
+                    <p>
+                    Evento ciclistico reacreativo de 100 km que se realiza anualmente, 
+                    donde los participantes recorren la distancia entre Bogotá y Villavicencio en bicicleta.
+                    </p>
 
+                    <div class="video-container">
+
+                        <iframe
+                            src="https://www.youtube.com/embed/e6q6K-GVi98"
+                            title="Video de la Travesía Bogotá - Villavicencio"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen>
+
+                        </iframe>
+
+                    </div>    
+
+                </div>
 
             </article> 
 
@@ -170,24 +204,31 @@
 
                 <h2>Descenso Buenavista Villavicencio, Meta</h2>
 
-                <p>
-                    Ruta de dificultad alta que te llevará a la cima
-                    del cerro para disfrutar de la vista panorámica
-                    sobre la ciudad de Villavicencio.
-                </p>
+                <button type = "button" id="botonGaleria4">
+                    Ver más galería
+                </button>
+
+                <div id = "galeria4" hidden>
+                
+                    <p>
+                        Ruta de dificultad alta que te llevará a la cima
+                        del cerro para disfrutar de la vista panorámica
+                        sobre la ciudad de Villavicencio.
+                    </p>
 
 
 
-                <div class="video-container">
+                    <div class="video-container">
 
-                    <iframe
-                        src="https://www.youtube.com/embed/A-OyuvGOTZc"
-                        title="Video de la Ruta Descenso Buenavista"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        allowfullscreen>
-                    </iframe>
+                        <iframe
+                            src="https://www.youtube.com/embed/A-OyuvGOTZc"
+                            title="Video de la Ruta Descenso Buenavista"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen>
+                        </iframe>
 
-                </div>    
+                    </div>    
+                </div>
 
 
             </article>
@@ -210,7 +251,13 @@
 
     </footer>
 
+    
+    
+    <script src="script.js"></script>
+
 
 </body>
+
+
 
 </html>
